@@ -1,0 +1,51 @@
+*{
+    background: #C0C0C0;
+}
+.container {
+    padding-top: 100px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.h1 {
+    text-align: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, button {
+    margin-top: 5px;
+}
+.botaoenviar {
+    padding: 5px;
+    background-color: #696969;
+    border-radius: 25px;
+    color:aliceblue;
+    border: none;
+    cursor: pointer;
+}
+#input, button:hover {
+    background-color: #2e2e2e;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
